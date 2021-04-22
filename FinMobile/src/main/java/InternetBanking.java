@@ -96,9 +96,9 @@ public class InternetBanking extends IbStatic
 		Thread.sleep(30000);
 
 		TakesScreenshot scrShot1 =((TakesScreenshot)d);
-		File SrcFile1=scrShot.getScreenshotAs(OutputType.FILE);
+		File SrcFile1=scrShot1.getScreenshotAs(OutputType.FILE);
 		File DestFile1=new File("E://FIN_MobiConnect//screenshots//ib//error.png");
-		FileUtils.copyFile(SrcFile, DestFile);
+		FileUtils.copyFile(SrcFile1, DestFile1);
 
 		Thread.sleep(3000);
 
