@@ -115,8 +115,13 @@ public class MSB extends Finacus_MaladBankPOM
 		List<MobileElement> Accept = d.findElements(By.className(ACCEPT));
 		System.out.println("Click On ACCEPT button");
 		
+	}
+	
+	@Test
+	public void Horizontalswpie() throws MalformedURLException, InterruptedException
+	{
 		
-		
+
 	}
 
 	@AfterSuite								
